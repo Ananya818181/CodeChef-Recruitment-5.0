@@ -40,6 +40,12 @@ nav a {
     margin: 5px 100px;
     cursor: pointer;
 }
+@media (max-width: 768px) { 
+    nav ul li.about_us {
+    text-align: left; 
+    margin-top: 10px; 
+}
+}
 
 nav a:hover {
     background-color: white;
